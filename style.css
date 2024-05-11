@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter','Roboto';
+}
+
+.info {
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 20%;
+    text-align: center;
+    padding: 40px;
+}
+
+img#profile {
+    border-radius: 50%;
+    width: 40%;
+}
+
+p#name {
+    font-size: 25px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p#address {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+p#profession {
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    margin: 30px 0px;
+}
+
+ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+li {
+    background: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+li:hover
+{
+    background-color:hsl(75, 94%, 57%);
+    
+}
+
+li:hover a
+{
+    color: hsl(0, 0%, 8%);
+}
+
+@media only screen and (max-width:800px)
+{
+    .info {
+        width: 75%;
+        padding: 30px;
+    }
+    p#name {
+        font-size: 20px;
+    }
+    p#address { 
+        font-size: 14px;
+    }
+    p#profession {
+        font-size: 14px;
+    }
+    li a {
+        font-size: 14px;
+    }
+}
